@@ -5,3 +5,4 @@ plotly
 matplotlib
 cmake
 xgboost
+kaleido
