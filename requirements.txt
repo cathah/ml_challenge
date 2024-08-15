@@ -1,2 +1,7 @@
 pandas
 notebook
+pmdarima
+plotly
+matplotlib
+cmake
+xgboost
