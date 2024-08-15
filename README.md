@@ -30,7 +30,7 @@ I recommend starting with the Staff Scheduling notebook as it gives a better ove
 
 ## Challenge Comments
 
-# Measuring Staffing Effectively - Comments & Concerns
+### Measuring Staffing Effectively - Comments & Concerns
 
 * A model based soley on order frequency may not show us the whole story in terms of staffing. Quite a large number of job tasks fall outside of this (cleaning, stock management, accounts, menu planning etc) and will not be reflected here. Noticeably, managers tend to have had more labour hours during quieter order hours which seems to align with this idea.
 
@@ -40,13 +40,13 @@ I recommend starting with the Staff Scheduling notebook as it gives a better ove
 
 * We do not have ground truth data to tell us what a 'comfortable' level of staffing is. Understaffing is a real risk, as it would improve on our OPLH metric temporarily, however that would not be sustainable long term. Feedback from customers as to the maintainability / perceived 'comfort' of staffing levels would be great to incorporate.
 
-* I've included schedules on a total staff basis as well as on a per job role basis. Many restaurants have no overlap in job responsibilities, however some do. Here I was thinking of use cases in smaller operations like cafes/delis/smoothie bars/ice cream bars etc where the staff member taking your order is also the one preparing it. For those types of use cases, using a full staff view may allow for a greater reduction in overstaffing. This reduced schedule may also give us some information on lower bounds where we veer towards understaffing.
+* I've included schedules on a total staff basis as well as on a per job role basis. Many restaurants have no overlap in job responsibilities, however some do. Here I was thinking of use cases in smaller operations like cafes/delis/smoothie bars/ice cream bars etc where the staff member taking your order is also sometimes the one preparing it. For those types of use cases, using a full staff view may allow for a greater reduction in overstaffing. This reduced schedule may also give us some information on lower bounds where we veer towards understaffing.
 
 * The solution does not take into account the fact that shifts may have a minimum time requirement, and so it may not be possible to just schedule a person for one hour, for example.
 
 * The term 'orders' was not completely clear to me (is this an item, a meal, a table etc, is a soft drink the same as a dinner?). If an order could vary the workload greatly for staff, that too may sway results
 
-# General Comments
+### General Comments
 
 * I tried to showcase my ML workflow through this challenge as opposed to simply optimising for results. For example, selecting simple, baseline models can allow you to ramp up on the whole project more quickly. This can allow you to start to gather/request any further data at an earlier date, and potentially receive customer feedback more quickly as to what matters in real life scenarios. Iterating on the models themselves for greater accuracy is something I would tackle as a next step, and is also something that benefits from more time due to long training times.
 
